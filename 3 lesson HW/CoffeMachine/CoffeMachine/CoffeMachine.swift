@@ -15,30 +15,24 @@ final class CoffeMachine {
     private var lvlMilk: Int
     private var surop: Surop
     
-//    private var status: String {
-                                
-//    }
-    
-    
-    
     init(lvlWater: Int = 100, lvlCoffe: Int = 100, lvlMilk: Int = 100, surop: Surop) {
         self.lvlWater = lvlWater
         self.lvlCoffe = lvlCoffe
         self.lvlMilk = lvlMilk
         self.surop = surop
     }
-
+    
     func getStatus () {
         print(
-        """
+            """
             LEVEL WATER - \(lvlWater) ml;
             LEVEL COFFE - \(lvlCoffe) gr;
             LEVEL SUROP - {
                             CHOCOLATE - \(String(describing: surop.chocolate ?? 0)) ml;
                             VANILA - \(String(describing: surop.vanila ?? 0)) ml;
                             COCONUT - \(String(describing: surop.coconut ?? 0)) ml.
-                           }
-        """
+            }
+            """
         )
         
     }
@@ -52,7 +46,7 @@ final class CoffeMachine {
     
     func addCoffe(addCoffe coffe: Int) {
         if coffe > 0 {
-             self.lvlCoffe += coffe
+            self.lvlCoffe += coffe
         }
         print("Level coffe in tank - \(self.lvlCoffe)")
     }
@@ -80,26 +74,37 @@ final class CoffeMachine {
         }
     }
     
+    func makeCoffe(cofe: CofeName){
+        switch cofe {
+        case .espresso:
+            self.makeEspresso()
+        case .chokolateLatte:
+            self.makeChockolateLatte()
+        default:
+            print("Choose coffe")
+        }
+    }
     
     
-    func makeEspresso (coffeMachine: CoffeMachine) -> String {
+    
+    private func makeEspresso () -> String {
         let name = "Espresso"
         let watter = 30
         let coffe = 9
         let surop: Surop? = nil
         
-        guard coffeMachine.lvlWater > watter else {
+        guard self.lvlWater > watter else {
             print("ALERT!!! Low level WATER in coffe machine!!! ADD WATER!!!")
             return  ""
             
         }
-        guard coffeMachine.lvlCoffe > coffe else {
+        guard self.lvlCoffe > coffe else {
             print("ALERT!!! Low level COFFE in coffe machine!!! ADD COFFE!!!")
             return ""
         }
         
-        coffeMachine.lvlWater -= watter
-        coffeMachine.lvlCoffe -= coffe
+        self.lvlWater -= watter
+        self.lvlCoffe -= coffe
         
         let espresso = CoffeDrink(name: name,
                                   water: watter,
@@ -109,30 +114,30 @@ final class CoffeMachine {
         return ""
     }
     
-    func makeChockolateLatte(coffeMachine: CoffeMachine) -> String {
+    private func makeChockolateLatte() -> String {
         let name = "Chockolate Latte"
         let watter = 30
         let coffe = 9
         let surop: Surop = .init(chocolate: 10, vanila: 0, coconut: 0)
         
-        guard coffeMachine.lvlWater > watter else {
+        guard self.lvlWater > watter else {
             print("ALERT!!! Low level WATER in coffe machine!!! ADD WATER!!!")
             return ""
         }
         
-        guard coffeMachine.lvlCoffe > coffe else {
+        guard self.lvlCoffe > coffe else {
             print("ALERT!!! Low level COFFE in coffe machine!!! ADD COFFE!!!")
             return ""
         }
         
-        guard coffeMachine.surop.chocolate! > surop.chocolate! else {
-           print("ALERT!!! Low level CHOCOLATE SUROP in coffe machine!!! ADD CHOCOLATE SUROP!!!")
+        guard self.surop.chocolate! > surop.chocolate! else {
+            print("ALERT!!! Low level CHOCOLATE SUROP in coffe machine!!! ADD CHOCOLATE SUROP!!!")
             return ""
         }
         
-        coffeMachine.lvlWater -= watter
-        coffeMachine.lvlCoffe -= coffe
-        coffeMachine.surop.chocolate! -= surop.chocolate!
+        self.lvlWater -= watter
+        self.lvlCoffe -= coffe
+        self.surop.chocolate! -= surop.chocolate!
         
         let chockolateLatte = CoffeDrink(name: name,
                                          water: watter,
