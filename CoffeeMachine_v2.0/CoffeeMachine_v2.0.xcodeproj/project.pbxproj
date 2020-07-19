@@ -7,33 +7,33 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		6DA0F55524BB1E70004BA1EC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DA0F55424BB1E70004BA1EC /* AppDelegate.swift */; };
-		6DA0F55724BB1E70004BA1EC /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DA0F55624BB1E70004BA1EC /* SceneDelegate.swift */; };
-		6DA0F55924BB1E70004BA1EC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DA0F55824BB1E70004BA1EC /* ViewController.swift */; };
-		6DA0F55C24BB1E70004BA1EC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6DA0F55A24BB1E70004BA1EC /* Main.storyboard */; };
-		6DA0F55E24BB1E72004BA1EC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6DA0F55D24BB1E72004BA1EC /* Assets.xcassets */; };
-		6DA0F56124BB1E72004BA1EC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6DA0F55F24BB1E72004BA1EC /* LaunchScreen.storyboard */; };
-		6DA0F56924BB1E8E004BA1EC /* CoffeMachine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DA0F56824BB1E8E004BA1EC /* CoffeMachine.swift */; };
-		6DA0F56B24BB21D5004BA1EC /* CoffeeDrink.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DA0F56A24BB21D5004BA1EC /* CoffeeDrink.swift */; };
-		6DFEE49B24C442600008ECA8 /* coffee_cup_minimalism_120197_938x1668.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6DFEE49A24C442600008ECA8 /* coffee_cup_minimalism_120197_938x1668.jpg */; };
+		6DB7622724C45260000FB4DA /* CoffeMachine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DB7622524C45260000FB4DA /* CoffeMachine.swift */; };
+		6DB7622824C45260000FB4DA /* CoffeeDrink.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DB7622624C45260000FB4DA /* CoffeeDrink.swift */; };
+		6DB7622A24C45298000FB4DA /* coffee_cup_minimalism_120197_938x1668.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6DB7622924C45298000FB4DA /* coffee_cup_minimalism_120197_938x1668.jpg */; };
+		6DFEE4A924C451990008ECA8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DFEE4A824C451990008ECA8 /* AppDelegate.swift */; };
+		6DFEE4AB24C451990008ECA8 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DFEE4AA24C451990008ECA8 /* SceneDelegate.swift */; };
+		6DFEE4AD24C451990008ECA8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DFEE4AC24C451990008ECA8 /* ViewController.swift */; };
+		6DFEE4B024C451990008ECA8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6DFEE4AE24C451990008ECA8 /* Main.storyboard */; };
+		6DFEE4B224C4519A0008ECA8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6DFEE4B124C4519A0008ECA8 /* Assets.xcassets */; };
+		6DFEE4B524C4519A0008ECA8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6DFEE4B324C4519A0008ECA8 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		6DA0F55124BB1E70004BA1EC /* CoffeMachine.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CoffeMachine.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		6DA0F55424BB1E70004BA1EC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		6DA0F55624BB1E70004BA1EC /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		6DA0F55824BB1E70004BA1EC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		6DA0F55B24BB1E70004BA1EC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		6DA0F55D24BB1E72004BA1EC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		6DA0F56024BB1E72004BA1EC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		6DA0F56224BB1E72004BA1EC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		6DA0F56824BB1E8E004BA1EC /* CoffeMachine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoffeMachine.swift; sourceTree = "<group>"; };
-		6DA0F56A24BB21D5004BA1EC /* CoffeeDrink.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoffeeDrink.swift; sourceTree = "<group>"; };
-		6DFEE49A24C442600008ECA8 /* coffee_cup_minimalism_120197_938x1668.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = coffee_cup_minimalism_120197_938x1668.jpg; sourceTree = "<group>"; };
+		6DB7622524C45260000FB4DA /* CoffeMachine.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoffeMachine.swift; sourceTree = "<group>"; };
+		6DB7622624C45260000FB4DA /* CoffeeDrink.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoffeeDrink.swift; sourceTree = "<group>"; };
+		6DB7622924C45298000FB4DA /* coffee_cup_minimalism_120197_938x1668.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = coffee_cup_minimalism_120197_938x1668.jpg; path = Assets.xcassets/coffee_cup_minimalism_120197_938x1668.jpg; sourceTree = "<group>"; };
+		6DFEE4A524C451990008ECA8 /* CoffeeMachine_v2.0.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CoffeeMachine_v2.0.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6DFEE4A824C451990008ECA8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		6DFEE4AA24C451990008ECA8 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		6DFEE4AC24C451990008ECA8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		6DFEE4AF24C451990008ECA8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6DFEE4B124C4519A0008ECA8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6DFEE4B424C4519A0008ECA8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6DFEE4B624C4519A0008ECA8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		6DA0F54E24BB1E70004BA1EC /* Frameworks */ = {
+		6DFEE4A224C451990008ECA8 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -43,83 +43,75 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		6DA0F54824BB1E70004BA1EC = {
+		6DFEE49C24C451990008ECA8 = {
 			isa = PBXGroup;
 			children = (
-				6DA0F55324BB1E70004BA1EC /* CoffeMachine */,
-				6DA0F55224BB1E70004BA1EC /* Products */,
+				6DFEE4A724C451990008ECA8 /* CoffeeMachine_v2.0 */,
+				6DFEE4A624C451990008ECA8 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		6DA0F55224BB1E70004BA1EC /* Products */ = {
+		6DFEE4A624C451990008ECA8 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				6DA0F55124BB1E70004BA1EC /* CoffeMachine.app */,
+				6DFEE4A524C451990008ECA8 /* CoffeeMachine_v2.0.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		6DA0F55324BB1E70004BA1EC /* CoffeMachine */ = {
+		6DFEE4A724C451990008ECA8 /* CoffeeMachine_v2.0 */ = {
 			isa = PBXGroup;
 			children = (
-				6DFEE49924C442010008ECA8 /* Assets */,
-				6DA0F55424BB1E70004BA1EC /* AppDelegate.swift */,
-				6DA0F55624BB1E70004BA1EC /* SceneDelegate.swift */,
-				6DA0F55824BB1E70004BA1EC /* ViewController.swift */,
-				6DA0F55A24BB1E70004BA1EC /* Main.storyboard */,
-				6DA0F55D24BB1E72004BA1EC /* Assets.xcassets */,
-				6DA0F55F24BB1E72004BA1EC /* LaunchScreen.storyboard */,
-				6DA0F56224BB1E72004BA1EC /* Info.plist */,
-				6DA0F56824BB1E8E004BA1EC /* CoffeMachine.swift */,
-				6DA0F56A24BB21D5004BA1EC /* CoffeeDrink.swift */,
+				6DFEE4A824C451990008ECA8 /* AppDelegate.swift */,
+				6DFEE4AA24C451990008ECA8 /* SceneDelegate.swift */,
+				6DFEE4AC24C451990008ECA8 /* ViewController.swift */,
+				6DFEE4AE24C451990008ECA8 /* Main.storyboard */,
+				6DFEE4B124C4519A0008ECA8 /* Assets.xcassets */,
+				6DB7622924C45298000FB4DA /* coffee_cup_minimalism_120197_938x1668.jpg */,
+				6DFEE4B324C4519A0008ECA8 /* LaunchScreen.storyboard */,
+				6DB7622624C45260000FB4DA /* CoffeeDrink.swift */,
+				6DB7622524C45260000FB4DA /* CoffeMachine.swift */,
+				6DFEE4B624C4519A0008ECA8 /* Info.plist */,
 			);
-			path = CoffeMachine;
-			sourceTree = "<group>";
-		};
-		6DFEE49924C442010008ECA8 /* Assets */ = {
-			isa = PBXGroup;
-			children = (
-				6DFEE49A24C442600008ECA8 /* coffee_cup_minimalism_120197_938x1668.jpg */,
-			);
-			path = Assets;
+			path = CoffeeMachine_v2.0;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		6DA0F55024BB1E70004BA1EC /* CoffeMachine */ = {
+		6DFEE4A424C451990008ECA8 /* CoffeeMachine_v2.0 */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 6DA0F56524BB1E72004BA1EC /* Build configuration list for PBXNativeTarget "CoffeMachine" */;
+			buildConfigurationList = 6DFEE4B924C4519A0008ECA8 /* Build configuration list for PBXNativeTarget "CoffeeMachine_v2.0" */;
 			buildPhases = (
-				6DA0F54D24BB1E70004BA1EC /* Sources */,
-				6DA0F54E24BB1E70004BA1EC /* Frameworks */,
-				6DA0F54F24BB1E70004BA1EC /* Resources */,
+				6DFEE4A124C451990008ECA8 /* Sources */,
+				6DFEE4A224C451990008ECA8 /* Frameworks */,
+				6DFEE4A324C451990008ECA8 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = CoffeMachine;
-			productName = CoffeMachine;
-			productReference = 6DA0F55124BB1E70004BA1EC /* CoffeMachine.app */;
+			name = CoffeeMachine_v2.0;
+			productName = CoffeeMachine_v2.0;
+			productReference = 6DFEE4A524C451990008ECA8 /* CoffeeMachine_v2.0.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		6DA0F54924BB1E70004BA1EC /* Project object */ = {
+		6DFEE49D24C451990008ECA8 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 1150;
-				LastUpgradeCheck = 1150;
+				LastSwiftUpdateCheck = 1160;
+				LastUpgradeCheck = 1160;
 				ORGANIZATIONNAME = "Artem Panasenko";
 				TargetAttributes = {
-					6DA0F55024BB1E70004BA1EC = {
-						CreatedOnToolsVersion = 11.5;
+					6DFEE4A424C451990008ECA8 = {
+						CreatedOnToolsVersion = 11.6;
 					};
 				};
 			};
-			buildConfigurationList = 6DA0F54C24BB1E70004BA1EC /* Build configuration list for PBXProject "CoffeMachine" */;
+			buildConfigurationList = 6DFEE4A024C451990008ECA8 /* Build configuration list for PBXProject "CoffeeMachine_v2.0" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -127,58 +119,58 @@
 				en,
 				Base,
 			);
-			mainGroup = 6DA0F54824BB1E70004BA1EC;
-			productRefGroup = 6DA0F55224BB1E70004BA1EC /* Products */;
+			mainGroup = 6DFEE49C24C451990008ECA8;
+			productRefGroup = 6DFEE4A624C451990008ECA8 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				6DA0F55024BB1E70004BA1EC /* CoffeMachine */,
+				6DFEE4A424C451990008ECA8 /* CoffeeMachine_v2.0 */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		6DA0F54F24BB1E70004BA1EC /* Resources */ = {
+		6DFEE4A324C451990008ECA8 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6DA0F56124BB1E72004BA1EC /* LaunchScreen.storyboard in Resources */,
-				6DFEE49B24C442600008ECA8 /* coffee_cup_minimalism_120197_938x1668.jpg in Resources */,
-				6DA0F55E24BB1E72004BA1EC /* Assets.xcassets in Resources */,
-				6DA0F55C24BB1E70004BA1EC /* Main.storyboard in Resources */,
+				6DFEE4B524C4519A0008ECA8 /* LaunchScreen.storyboard in Resources */,
+				6DB7622A24C45298000FB4DA /* coffee_cup_minimalism_120197_938x1668.jpg in Resources */,
+				6DFEE4B224C4519A0008ECA8 /* Assets.xcassets in Resources */,
+				6DFEE4B024C451990008ECA8 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		6DA0F54D24BB1E70004BA1EC /* Sources */ = {
+		6DFEE4A124C451990008ECA8 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6DA0F55924BB1E70004BA1EC /* ViewController.swift in Sources */,
-				6DA0F56924BB1E8E004BA1EC /* CoffeMachine.swift in Sources */,
-				6DA0F56B24BB21D5004BA1EC /* CoffeeDrink.swift in Sources */,
-				6DA0F55524BB1E70004BA1EC /* AppDelegate.swift in Sources */,
-				6DA0F55724BB1E70004BA1EC /* SceneDelegate.swift in Sources */,
+				6DB7622824C45260000FB4DA /* CoffeeDrink.swift in Sources */,
+				6DFEE4AD24C451990008ECA8 /* ViewController.swift in Sources */,
+				6DB7622724C45260000FB4DA /* CoffeMachine.swift in Sources */,
+				6DFEE4A924C451990008ECA8 /* AppDelegate.swift in Sources */,
+				6DFEE4AB24C451990008ECA8 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		6DA0F55A24BB1E70004BA1EC /* Main.storyboard */ = {
+		6DFEE4AE24C451990008ECA8 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				6DA0F55B24BB1E70004BA1EC /* Base */,
+				6DFEE4AF24C451990008ECA8 /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		6DA0F55F24BB1E72004BA1EC /* LaunchScreen.storyboard */ = {
+		6DFEE4B324C4519A0008ECA8 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				6DA0F56024BB1E72004BA1EC /* Base */,
+				6DFEE4B424C4519A0008ECA8 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -186,7 +178,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		6DA0F56324BB1E72004BA1EC /* Debug */ = {
+		6DFEE4B724C4519A0008ECA8 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -236,7 +228,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -246,7 +238,7 @@
 			};
 			name = Debug;
 		};
-		6DA0F56424BB1E72004BA1EC /* Release */ = {
+		6DFEE4B824C4519A0008ECA8 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -290,7 +282,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -300,64 +292,64 @@
 			};
 			name = Release;
 		};
-		6DA0F56624BB1E72004BA1EC /* Debug */ = {
+		6DFEE4BA24C4519A0008ECA8 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = M6F8RZUU9W;
-				INFOPLIST_FILE = CoffeMachine/Info.plist;
+				INFOPLIST_FILE = CoffeeMachine_v2.0/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = art253510.CoffeMachine;
+				PRODUCT_BUNDLE_IDENTIFIER = "art253510.CoffeeMachine-v2-0";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
-		6DA0F56724BB1E72004BA1EC /* Release */ = {
+		6DFEE4BB24C4519A0008ECA8 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = M6F8RZUU9W;
-				INFOPLIST_FILE = CoffeMachine/Info.plist;
+				INFOPLIST_FILE = CoffeeMachine_v2.0/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = art253510.CoffeMachine;
+				PRODUCT_BUNDLE_IDENTIFIER = "art253510.CoffeeMachine-v2-0";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		6DA0F54C24BB1E70004BA1EC /* Build configuration list for PBXProject "CoffeMachine" */ = {
+		6DFEE4A024C451990008ECA8 /* Build configuration list for PBXProject "CoffeeMachine_v2.0" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				6DA0F56324BB1E72004BA1EC /* Debug */,
-				6DA0F56424BB1E72004BA1EC /* Release */,
+				6DFEE4B724C4519A0008ECA8 /* Debug */,
+				6DFEE4B824C4519A0008ECA8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		6DA0F56524BB1E72004BA1EC /* Build configuration list for PBXNativeTarget "CoffeMachine" */ = {
+		6DFEE4B924C4519A0008ECA8 /* Build configuration list for PBXNativeTarget "CoffeeMachine_v2.0" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				6DA0F56624BB1E72004BA1EC /* Debug */,
-				6DA0F56724BB1E72004BA1EC /* Release */,
+				6DFEE4BA24C4519A0008ECA8 /* Debug */,
+				6DFEE4BB24C4519A0008ECA8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 6DA0F54924BB1E70004BA1EC /* Project object */;
+	rootObject = 6DFEE49D24C451990008ECA8 /* Project object */;
 }

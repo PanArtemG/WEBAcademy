@@ -22,26 +22,22 @@ final class CoffeMachine {
         self.surop = surop
     }
     
-    func getStatus () {
-        print(
+    func getStatus () -> String {
+        return
             """
-            LEVEL WATER - \(lvlWater) ml;
-            LEVEL COFFEE - \(lvlCoffee) gr;
-            LEVEL SUROP - {
-                            CHOCOLATE - \(String(describing: surop.chocolate ?? 0)) ml;
-                            VANILA - \(String(describing: surop.vanila ?? 0)) ml;
-                            COCONUT - \(String(describing: surop.coconut ?? 0)) ml.
-                           }
+            WATER - \(lvlWater) ml;
+            COFFEE - \(lvlCoffee) gr;
+            Surop:
+            CHOCOLATE - \(String(describing: surop.chocolate ?? 0)) ml;
+            VANILA - \(String(describing: surop.vanila ?? 0)) ml;
+            COCONUT - \(String(describing: surop.coconut ?? 0)) ml.
             """
-        )
-        
     }
     
     func addWater(addWater water: Int) -> String {
         if water > 0 {
             lvlWater += water
         }
-        print("Level water in tank - \(lvlWater)")
         return "Level water in tank - \(lvlWater)"
     }
     
@@ -49,7 +45,6 @@ final class CoffeMachine {
         if coffee > 0 {
             lvlCoffee += coffee
         }
-        print("Level coffe in tank - \(lvlCoffee)")
         return "Level coffe in tank - \(lvlCoffee)"
     }
     
@@ -57,7 +52,6 @@ final class CoffeMachine {
         if milk > 0 {
             lvlMilk += milk
         }
-        print("Level milk in tank - \(lvlMilk)")
         return "Level milk in tank - \(lvlMilk)"
     }
     
@@ -83,9 +77,6 @@ final class CoffeMachine {
             return  makeEspresso()
         case .chokolateLatte:
             return makeChockolateLatte()
-        default:
-            print("Choose coffe")
-            return "Choose coffe"
         }
     }
     
@@ -98,12 +89,10 @@ final class CoffeMachine {
         let surop: Surop? = nil
         
         guard lvlWater > watter else {
-            print("ALERT!!! Low level WATER in coffe machine!!! ADD WATER!!!")
             return  "ALERT!!! Low level WATER in coffe machine!!! ADD WATER!!!"
             
         }
         guard lvlCoffee > coffe else {
-            print("ALERT!!! Low level COFFE in coffe machine!!! ADD COFFE!!!")
             return "ALERT!!! Low level COFFE in coffe machine!!! ADD COFFE!!!"
         }
         
@@ -114,7 +103,6 @@ final class CoffeMachine {
                                    water: watter,
                                    coffee: coffe,
                                    surop: surop)
-        print("Coffe '\(espresso.name)' reade ☕️")
         return "Coffe '\(espresso.name)' reade ☕️"
     }
     
@@ -125,17 +113,14 @@ final class CoffeMachine {
         let surop: Surop = .init(chocolate: 10, vanila: 0, coconut: 0)
         
         guard lvlWater > watter else {
-            print("ALERT!!! Low level WATER in coffe machine!!! ADD WATER!!!")
             return "ALERT!!! Low level WATER in coffe machine!!! ADD WATER!!!"
         }
         
         guard lvlCoffee > coffe else {
-            print("ALERT!!! Low level COFFE in coffe machine!!! ADD COFFE!!!")
             return "ALERT!!! Low level COFFE in coffe machine!!! ADD COFFE!!!"
         }
         
         guard self.surop.chocolate! > surop.chocolate! else {
-            print("ALERT!!! Low level CHOCOLATE SUROP in coffe machine!!! ADD CHOCOLATE SUROP!!!")
             return "ALERT!!! Low level CHOCOLATE SUROP in coffe machine!!! ADD CHOCOLATE SUROP!!!"
         }
         
@@ -147,8 +132,6 @@ final class CoffeMachine {
                                           water: watter,
                                           coffee: coffe,
                                           surop: surop)
-        
-        print("Coffe '\(chockolateLatte.name)' reade 🧉")
         return "Coffe '\(chockolateLatte.name)' reade 🧉"
     }
 }

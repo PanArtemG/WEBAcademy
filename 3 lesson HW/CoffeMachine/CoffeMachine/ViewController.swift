@@ -10,22 +10,23 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    @IBOutlet weak var makeEspresso: UIButton!
+    @IBOutlet weak var makeLatte: UIButton!
+    
+    @IBOutlet weak var  informationLabel: UILabel!
+    @IBOutlet weak var progressCoffee: UIProgressView!
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+                let surop = Surop(chocolate: 20, vanila: 0, coconut: 10)
+                let coffeMachine = CoffeMachine(lvlWater: 20, lvlCoffee: 20, lvlMilk: 20, surop: surop)
         
-        let surop = Surop(chocolate: 20, vanila: 0, coconut: 10)
-        
-        let coffeMachine = CoffeMachine(lvlWater: 20, lvlCoffe: 20, lvlMilk: 20, surop: surop)
-        
-        coffeMachine.makeCoffe(cofe: CofeName.espresso)
-        coffeMachine.getStatus()
-//
-        coffeMachine.addWater(addWater: 100)
-//
-        coffeMachine.makeCoffe(cofe: CofeName.chokolateLatte)
-//
-        coffeMachine.getStatus()
+                coffeMachine.makeCoffe(coffee: CoffeeName.espresso)
+                coffeMachine.getStatus()
+                coffeMachine.addWater(addWater: 100)
+                coffeMachine.makeCoffe(coffee: CoffeeName.chokolateLatte)
+                coffeMachine.getStatus()
         
         
     }

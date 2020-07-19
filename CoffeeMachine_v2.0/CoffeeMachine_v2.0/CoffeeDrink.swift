@@ -1,5 +1,5 @@
 //
-//  CoffetDrink.swift
+//  CoffeeDrink.swift
 //  CoffeMachine
 //
 //  Created by Artem Panasenko on 12.07.2020.
@@ -9,22 +9,22 @@
 import Foundation
 
 
-final class CoffeDrink {
+final class CoffeeDrink {
     var name: String
     var water: Int
-    var coffe: Int
+    var coffee: Int
     var surop: Surop?
     
-    var description: String {  "Hot coffe - '\(name)'" }
+    var description: String {  "Hot coffee - '\(name)'" }
     
-    init(name: String, water: Int, coffe: Int, surop: Surop?) {
+    init(name: String, water: Int, coffee: Int, surop: Surop?) {
         self.name = name
         self.water = water
-        self.coffe = coffe
+        self.coffee = coffee
         self.surop = surop
     }
 }
 
-enum CofeName {
+enum CoffeeName {
     case espresso, chokolateLatte
 }
